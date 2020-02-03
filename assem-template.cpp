@@ -1,7 +1,7 @@
 /*
  * Name: Samuel Lamb
  * Class: CDA 3101
- * Assignemtn: Assignment 2
+ * Assignment: Assignment 2
  */
 #include <cstdio>
 #include <string>
@@ -16,7 +16,7 @@
 
 
 std::vector<std::string> LineVector; //Vector that stores each line of assembly code being passed in
-std::map<std::string,int> ScanMap; //Map structure for stroing label locations
+std::map<std::string,int> ScanMap; //Map structure for string label locations
 std::vector<unsigned int> FinalVector; //The final vector to spit out
 char ScanChar[10];
 char ScanChar2[10];
